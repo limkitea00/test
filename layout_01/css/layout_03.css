@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    height: 900px;
+    width: 1200px;
+}
+header{
+    height: 100px;
+    background-color: red;
+}
+main{
+    display: flex;
+}
+.left-bar{
+    width: 120px;
+    height: 800px;
+    background-color: turquoise;
+}
+.article{
+    width: 1080px;
+    height: 700px;
+    background-color: blueviolet;
+}
+.comment{
+    width: 1080px;
+    height: 100px;
+    background-color: blue;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+#wrap{
+    width: 1200px;
+    height: 820px;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #abb67a;
+}
+main{
+    display: flex;
+    width: 100%px;
+    height: 600px;
+}
+
+.side{
+    width: 300PX;
+    height: 100%;
+    background-color: turquoise;
+}
+.main-box{
+    width: 900px;
+    height: 100%;
+    background-color: #5f7964;
+}
+footer{
+    height: 120px;
+    background-color: #44c907;
+}
