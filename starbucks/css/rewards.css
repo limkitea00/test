@@ -1,0 +1,68 @@
+/* 리워드 랩 */
+.rewards-wrap {
+  background-color: #1e3932;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  gap: 50px;
+}
+/* 로고 */
+.rewards-logo {
+  width: 20%;
+}
+/* 리워드 텍스트 */
+.rewards-text-box {
+  width: 60%;
+  color: #fff;
+}
+.rewards-text-box a {
+  color: #fff;
+}
+.info-text {
+    position: relative;
+  display: flex;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(185, 185, 185);
+}
+.gift-text {
+    position: relative;
+  display: flex;
+  padding-top: 30px;
+}
+/* 리워드랩 버튼 */
+.sign-btn{
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+}
+.sign-up{
+    background-color: #00704a;
+    margin-right: 10px;
+    padding: 5px 21.4px;
+    border: 2px solid #00704a;
+    border-radius: 5px;
+}
+.sign-up:hover{
+    text-decoration: underline  ;
+}
+.sign-in{
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.sign-in:hover{
+    text-decoration: underline  ;
+}
+.gift-btn{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+.gift-card-btn{
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+

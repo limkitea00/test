@@ -1,0 +1,39 @@
+/* 메인 빈 전체 랩 */
+.main-bean-wrap {
+  background: url(../images/2026_spring1_ph1_promotion_bg_260220.jpg) no-repeat
+    center;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+/* 빈 이너 */
+.bean-inner {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 텍스트 이미지 */
+.bean-text-img {
+  display: flex;
+  flex-direction: column;
+}
+.bean-text-img img {
+  padding-bottom: 30px;
+}
+/* 자세히 보기 */
+.bean-text-img a {
+  width: 125px;
+  border: 2px solid #4f051c;
+  border-radius: 5%;
+  color: #4f051c;
+  text-align: center;
+  line-height: 38px;
+}
+.bean-text-img a:hover {
+  transition: all 0.5s;
+  background-color: #4f051c;
+  color: #fff;
+  text-decoration: underline;
+}

@@ -1,0 +1,114 @@
+/* 메인 */
+.main {
+  padding-top: 142px;
+  width: 100%;
+}
+/* 비주얼영역 */
+.visual {
+  /* display: flex; */
+  background: url("../images/2026_spring1_ph1_top_bg_260220.jpg") no-repeat
+    center;
+  width: 100%;
+  height: 32.3vw;
+  background-size: cover;
+}
+.visual-wrap {
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  margin: auto;
+}
+/* 슬로건 */
+.slogan-img {
+  width: 30%;
+
+  /* padding-top: 150px; */
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.slogan-img img {
+  width: 100%;
+  display: block;
+}
+/* 자세히보기 버튼 */
+.btn {
+  width: 125px;
+  margin: 0 auto;
+  border: 2px solid #ac85ba;
+  border-radius: 5%;
+  color: #ac85ba;
+  text-align: center;
+  line-height: 38px;
+}
+.btn:hover {
+  transition: all 0.5s;
+  background-color: #ac85ba;
+  color: #fff;
+  text-decoration: underline;
+}
+/* 음료 리스트 */
+.drink-img {
+  width: 70%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.drink-img img {
+  width: 100%;
+  vertical-align: top;
+  max-width: 100%;
+}
+/* 채용공고 */
+.ad-img {
+  /* display: fixed; */
+  position: fixed;
+  right: 45px;
+  top: 200px;
+}
+/* 공지사항 */
+.line-notice {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #111111;
+  height: 62px;
+}
+.notice-left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  background-color: #111111;
+}
+.text-img {
+  padding: 30px;
+}
+.btn-img {
+  width: 36px;
+  height: 36px;
+}
+.text-box {
+  display: flex;
+  align-items: center;
+  padding-left: 250px;
+}
+.text-box p {
+  color: #fff;
+}
+.notice-right {
+  width: 50%;
+  padding-left: 200px;
+  background-color: #f6f5ef;
+}
+.notice-right {
+  display: flex;
+  align-items: center;
+}
+.notice-right p {
+  padding: 0 100px;
+}
