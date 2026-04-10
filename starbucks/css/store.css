@@ -1,0 +1,66 @@
+.store-wrap {
+  background: url(../images/store_bg.jpg) no-repeat center;
+  background-size: 100% auto;
+  height: 400px;
+  /* position: relative; */
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+.store-img-box {
+  padding-left: 250px;
+  /* background-color: rgb(255, 143, 143); */
+  position: relative;
+}
+.store-img2 {
+  position: absolute;
+  top: 150px;
+  left: 500px;
+}
+.coffee-bean-img {
+  position: absolute;
+  top: -60px;
+  left: 550px;
+}
+.store-text-img {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.store-txt1 {
+  position: absolute;
+  top: 100px;
+  left: 158px;
+}
+.store-txt2 {
+  position: absolute;
+  top: 168px;
+  left: 158px;
+}
+.store-text-img a {
+  width: 125px;
+  margin: 0 auto;
+  border: 2px solid #222;
+  border-radius: 5%;
+  color: #000;
+  text-align: center;
+  line-height: 38px;
+  position: absolute;
+  top: 300px;
+  left: 158px;
+}
+.store-text-img a:hover {
+  transition: all 0.5s;
+  background-color: #222;
+  color: #fff;
+  text-decoration: underline;
+}
+.reserve-store-img04 {
+  width: 100%;
+}
+.store-img04 {
+  position: absolute;
+  bottom: 0;
+  right: 450px;
+}
